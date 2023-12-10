@@ -14,9 +14,18 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-export const FIREFLY_URL =
-  process.env["FIREFLY_URL"] || "http://localhost:5000";
-export const FUNGIBLE_POOL_ID = process.env["FUNGIBLE_POOL_ID"];
-export const NONFUNGIBLE_POOL_ID = process.env["NONFUNGIBLE_POOL_ID"];
-export const FIREFLY_ADDRESS = process.env["FIREFLY_ADDRESS"];
+//export const FIREFLY_URL =
+//  process.env["FIREFLY_URL"] || "http://localhost:5000";
+//export const FUNGIBLE_POOL_ID = process.env["FUNGIBLE_POOL_ID"];
+//export const NONFUNGIBLE_POOL_ID = process.env["NONFUNGIBLE_POOL_ID"];
+//export const FIREFLY_ADDRESS = process.env["FIREFLY_ADDRESS"];
+//export const NFT_COST = 10;
+
+export const FIREFLY_URL = "http://localhost:5000";
+export const FUNGIBLE_POOL_ID = 'd3c08d28-973d-4bc7-af44-58d5d786fcd2';
+//process.env["FUNGIBLE_POOL_ID"];
+export const NONFUNGIBLE_POOL_ID = 'd230d147-fdc5-4dd5-974b-044df747c6fc';
+//process.env["NONFUNGIBLE_POOL_ID"];
+export const FIREFLY_ADDRESS = '0xfb85b3de5d3210d105b06a57760801452552824c';
+//process.env["FIREFLY_ADDRESS"];
 export const NFT_COST = 10;
